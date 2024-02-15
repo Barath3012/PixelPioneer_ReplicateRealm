@@ -1,7 +1,165 @@
-.bodyContainer1{
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+.bodyContainer1 {
     width:100%;
     height:100vh;
     background-image: url('asserts/lap_img.jpg');
     background-size:cover;
     box-shadow: inset 0 0 0 2000px rgba(15,47,88, 0.7);
 }
+
+.ibm-plex sans-thin {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .ibm-plex sans-extralight {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .ibm-plex sans-light {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .ibm-plex sans-regular {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ibm-plex sans-medium {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .ibm-plex sans-semibold {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .ibm-plex sans-bold {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .ibm-plex sans-thin-italic {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .ibm-plex sans-extralight-italic {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .ibm-plex sans-light-italic {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .ibm-plex sans-regular-italic {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .ibm-plex sans-medium-italic {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .ibm-plex sans-semibold-italic {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .ibm-plex sans-bold-italic {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .objective-container{
+    height:100vh;
+    width:100%;
+    display: flex;
+    background: linear-gradient(90deg, rgba(112,117,155,255) 0%, rgba(12,46,76,255)  100%);
+  }
+
+  .objective-title{
+    width:50%;
+    font-family: "Comic Sans MS";
+    font-style: italic;
+    font-size: 50px;
+    color:#feffff;
+    margin: auto;
+    vertical-align: middle;
+  }
+
+  .objectives{
+    width:50%;
+    height:100vh;
+  }
+
+  .objective{
+    left:15px;
+    display:inline-block;
+    margin-top: 20px;
+    border: solid #000;
+    background-color: #115a73;
+    border-radius: 10px;
+    border-color: white;
+    height:fit-content;
+    width:70%;
+    border-width: thin;
+    color:#ffffff;
+    transition: transform 0.75s ease;
+    text-align: center;
+  }
+
+  .objective:hover {
+    transform: translateX(30%); /* Move the element 20 pixels to the right */
+}
+.aboutus{
+    height:100vh;
+    width:100%;
+}
+.contact{
+    height: 100vh;
+    width: 100%;
+
+}
+
+.blockys{
+    display:flex;
+}
+
+.footer{
+
+}
+
+.navbar-scroll {
+    background-color: #5fc25a;background: linear-gradient(90deg, rgba(43,50,59,255) 0%, rgba(43,50,59,255) 100%); /* Change this to the desired color */
+    transition: background-color 0.3s ease;
+  }
+
+  .navbar-toppy{
+    background-color:#293b75;background: linear-gradient(90deg, rgba(41,59,117,1) 0%, rgba(36,92,136,1) 100%);
+    transition: background-color 0.3s ease;
+  }
