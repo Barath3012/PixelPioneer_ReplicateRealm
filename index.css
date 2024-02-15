@@ -1,0 +1,7 @@
+.bodyContainer1{
+    width:100%;
+    height:100vh;
+    background-image: url('asserts/lap_img.jpg');
+    background-size:cover;
+    box-shadow: inset 0 0 0 2000px rgba(15,47,88, 0.7);
+}
